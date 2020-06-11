@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Gather action="input.php" numDigits="1">
+  		<Say voice="alice" language="en">
+    		Welcome, We hope you are having a very sad day. Please choose from the following list of early two thousands eemoohh jams
+  		</Say>
+  		<Say voice="alice" language="en">
+    		To liste song number 1 press 1
+  		</Say>
+	</Gather>
+	<Say voice="alice" language="en">
+    	We sorry
+  	</Say>	
+  	<Redirect>incoming-call.xml</Redirect>
+</Response>

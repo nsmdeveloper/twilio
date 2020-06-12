@@ -9,7 +9,7 @@ switch($_REQUEST['Digits']) {
 
 	//Mi corazon encantado
 	case "1":
-	$response->play('https://fast-cove-95462.herokuapp.com/1.mp3', array('loop' => 1));
+	$response->play('https://playerservices.streamtheworld.com/api/livestream-redirect/977_HITSAAC_SC', array('loop' => 1));
 	echo $response;
 	break;
 	//Angeles Fuimos

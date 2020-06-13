@@ -9,7 +9,7 @@ switch($_REQUEST['Digits']) {
 
 	//Mi corazon encantado
 	case "1":
-	$response->play('https://playerservices.streamtheworld.com/api/livestream-redirect/977_HITSAAC_SC', array('loop' => 1));
+	$response->play('"https://live.wostreaming.net/direct/galaxy-wkllhd2mp3-ibc1?source=TuneIn', array('loop' => 1));
 	echo $response;
 	break;
 	//Angeles Fuimos

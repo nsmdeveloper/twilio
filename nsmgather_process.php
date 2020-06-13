@@ -6,11 +6,11 @@ $response = new VoiceResponse();
 
 switch ($_POST['Digits']) {
     case 1:
-        $response->say('You selected sales. Good for you!');
+        $response->say('Haz seleccionado ventas, como le podemos ayudar.');
         echo $response;
         break;
     case 2:
-        $response->say('You need support. We will help!');
+        $response->say('Haz seleccionado soporte, como le podemos ayudar.');
         echo $response;
         break;
     default:

@@ -8,8 +8,8 @@ $gather = $response->gather([
 	'numDigits' => 1,
     'method' => 'POST'
 ]);
-$gather->say('Gracias por llamar a natiumsoft, para comunicarse con ventas presione 1, soporte presione 2');
-$response->say('Lo sentimos el tiempo se ha agotado, bye.');
+$gather->say('Gracias por llamar a natiumsoft, para comunicarse con ventas presione 1, soporte presione 2' , ['voice' => 'woman', 'language' => 'es-ES']);
+$response->say('Lo sentimos el tiempo se ha agotado, bye.', ['voice' => 'woman', 'language' => 'es-ES']);
 
 header('Content-Type: text/xml');
 echo $response;

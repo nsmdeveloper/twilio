@@ -16,5 +16,6 @@ switch ($_POST['Digits']) {
     default:
         $response->say('Sorry, I don\'t understand that choice.');
         echo $response;
+        $response->redirect('/nsmgather.php');
         break;
 }

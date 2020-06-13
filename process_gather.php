@@ -14,7 +14,8 @@ switch($_REQUEST['Digits']) {
 	#https://live.wostreaming.net/direct/galaxy-wkllhd2mp3-ibc1?source=TuneIn
 
 	case "1":
-	$response->play('https://live.wostreaming.net/direct/galaxy-wkllhd2mp3-ibc1?source=TuneIn', array('loop' => 1));
+	$response->play('https://fast-cove-95462.herokuapp.com/1.mp3', array('loop' => 1));
+	//$response->play('https://live.wostreaming.net/direct/galaxy-wkllhd2mp3-ibc1?source=TuneIn', array('loop' => 1));
 
 	#$response->play('https://16903.live.streamtheworld.com/977_HITSAAC_SC', array('loop' => 1));
 	echo $response;
